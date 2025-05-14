@@ -107,9 +107,9 @@ function switchDayNight() {
 
 function changeIcon() {
   if(!bodyEl.classList.contains('active')){
-    imageIconEl.src = "./assets/images/icon-moon.svg";
+    imageIconEl.src = "./.././assets/images/icon-moon.svg";
   } else if (bodyEl.classList.contains('active')){
-    imageIconEl.src = "./assets/images/icon-sun.svg";
+    imageIconEl.src = "./.././assets/images/icon-sun.svg";
   }
 }
 
